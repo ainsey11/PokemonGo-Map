@@ -15,9 +15,12 @@ Building off [Mila432](https://github.com/Mila432/Pokemon_Go_API)'s PokemonGo AP
 #Basic Installation Guide
 
 On your server, install python, python-pip and github. you may wish to install screen too.
-clone this repo and cd into it
+clone this repo and cd into it.
+
 run sudo pip install -r requirements.txt
 
 once all the requirements are installed, go to the credentials.json file and change the final line to your google maps javascript api key
- to run the server run the following command :
+
+to run the server run the following command :
+
 screen ./example.py -H <ip to bind to (use 0.0.0.0 for all ifaces)>  -P <port number> -u <pokemon go username> -p <pokemon go password> -l "<postcode>, UK" -st <steps (mine was at 5>
