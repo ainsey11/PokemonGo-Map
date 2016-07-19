@@ -23,4 +23,4 @@ once all the requirements are installed, go to the credentials.json file and cha
 
 to run the server run the following command :
 
-screen ./example.py -H <ip to bind to (use 0.0.0.0 for all ifaces)>  -P <port number> -u <pokemon go username> -p <pokemon go password> -l "<postcode>, UK" -st <steps (mine was at 5>
+screen ./example.py -H 0.0.0.0  -P 5000 -u pokemongousername -p pokemongopassword -l "postcode, UK" -st steps (mine was at 5
